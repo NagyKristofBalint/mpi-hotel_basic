@@ -1,0 +1,128 @@
+2022-03-04 13:43:19 INFO  e.c.m.b.r.jdbc.ConnectionManager - ConnectionManager successfully initialised
+2022-03-04 13:43:19 INFO  e.c.m.b.repository.jdbc.JdbcHotelDAO - Hotel was inserted successfully;
+2022-03-04 13:43:19 INFO  e.c.m.b.repository.jdbc.JdbcHotelDAO - Rooms were inserted successfully;
+2022-03-04 13:44:05 INFO  e.c.m.b.repository.jdbc.JdbcUserDAO - No user registered with username pista
+2022-03-04 13:44:05 INFO  e.c.m.b.repository.jdbc.JdbcUserDAO - User with id 1 has been created
+2022-03-04 13:44:05 INFO  e.c.m.b.service.impl.UserServiceImpl - User pista has been registered with id 1;
+2022-03-04 13:44:05 INFO  e.c.mpihotel.web.RegisterServlet - User pista has successfully registered;
+2022-03-04 13:44:05 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:44:05 INFO  e.c.m.w.t.HandlebarsTemplateFactory - Building handlebars renderer
+2022-03-04 13:44:06 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:44:06 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:44:26 INFO  e.c.mpihotel.web.LoginFilter - User pista is logged in already, redirecting to main page;
+2022-03-04 13:44:26 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:44:26 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:44:26 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:44:33 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:44:33 INFO  e.c.mpihotel.web.LogoutServlet - User pista has logged out successfully;
+2022-03-04 13:44:42 INFO  e.c.mpihotel.web.LoginFilter - Unauthorized access attempt, redirecting to login page...;
+2022-03-04 13:44:48 INFO  e.c.m.b.service.impl.UserServiceImpl - User pista has logged in successfully
+2022-03-04 13:44:48 INFO  e.c.m.b.service.impl.UserServiceImpl - Successfully queried user with username pista;
+2022-03-04 13:44:48 INFO  e.c.mpihotel.web.LoginServlet - User pista has logged in successfully, redirecting to main page...;
+2022-03-04 13:44:48 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:44:48 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:44:48 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:07 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:07 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 1 has been created
+2022-03-04 13:45:07 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-23 by user with id 1 was inserted successfully;
+2022-03-04 13:45:07 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-23 successfully, reloading page...;
+2022-03-04 13:45:07 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:07 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:07 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:20 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:20 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking with id 1 has been deleted successfully;
+2022-03-04 13:45:20 INFO  e.c.m.web.DeleteBookingServlet - Booking with id 1 has been deleted successfully;
+2022-03-04 13:45:23 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:23 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 2 has been created
+2022-03-04 13:45:23 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-22 by user with id 1 was inserted successfully;
+2022-03-04 13:45:23 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-22 successfully, reloading page...;
+2022-03-04 13:45:23 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:23 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:23 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:26 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:26 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking with id 2 has been deleted successfully;
+2022-03-04 13:45:26 INFO  e.c.m.web.DeleteBookingServlet - Booking with id 2 has been deleted successfully;
+2022-03-04 13:45:36 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:36 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 3 has been created
+2022-03-04 13:45:36 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-04 by user with id 1 was inserted successfully;
+2022-03-04 13:45:36 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-04 successfully, reloading page...;
+2022-03-04 13:45:36 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:36 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:36 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:40 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:40 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 4 has been created
+2022-03-04 13:45:40 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-04 by user with id 1 was inserted successfully;
+2022-03-04 13:45:40 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-04 successfully, reloading page...;
+2022-03-04 13:45:40 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:40 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:40 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:41 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:41 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 5 has been created
+2022-03-04 13:45:41 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-04 by user with id 1 was inserted successfully;
+2022-03-04 13:45:41 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-04 successfully, reloading page...;
+2022-03-04 13:45:41 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:41 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:41 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:43 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:43 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 6 has been created
+2022-03-04 13:45:43 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-04 by user with id 1 was inserted successfully;
+2022-03-04 13:45:43 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-04 successfully, reloading page...;
+2022-03-04 13:45:44 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:44 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:44 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:45 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:45 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 7 has been created
+2022-03-04 13:45:45 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-04 by user with id 1 was inserted successfully;
+2022-03-04 13:45:45 INFO  e.c.mpihotel.web.BookingServlet - User pista has booked on date 2022-03-04 successfully, reloading page...;
+2022-03-04 13:45:45 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:45 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:45:45 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:45:47 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:47 WARN  e.c.mpihotel.web.BookingServlet - No room left on 2022-03-04;
+2022-03-04 13:45:52 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:45:52 INFO  e.c.mpihotel.web.LogoutServlet - User pista has logged out successfully;
+2022-03-04 13:45:58 INFO  e.c.m.b.repository.jdbc.JdbcUserDAO - No user registered with username lajos
+2022-03-04 13:45:58 INFO  e.c.m.b.repository.jdbc.JdbcUserDAO - User with id 2 has been created
+2022-03-04 13:45:58 INFO  e.c.m.b.service.impl.UserServiceImpl - User lajos has been registered with id 2;
+2022-03-04 13:45:58 INFO  e.c.mpihotel.web.RegisterServlet - User lajos has successfully registered;
+2022-03-04 13:45:58 INFO  e.c.mpihotel.web.LoginFilter - User lajos is authorized to access page;
+2022-03-04 13:45:58 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 2 have been queried with success;
+2022-03-04 13:45:58 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:46:05 INFO  e.c.mpihotel.web.LoginFilter - User lajos is authorized to access page;
+2022-03-04 13:46:05 INFO  e.c.m.b.r.jdbc.JdbcBookingsDAO - Booking with id 8 has been created
+2022-03-04 13:46:05 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Booking on date 2022-03-22 by user with id 2 was inserted successfully;
+2022-03-04 13:46:05 INFO  e.c.mpihotel.web.BookingServlet - User lajos has booked on date 2022-03-22 successfully, reloading page...;
+2022-03-04 13:46:05 INFO  e.c.mpihotel.web.LoginFilter - User lajos is authorized to access page;
+2022-03-04 13:46:05 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 2 have been queried with success;
+2022-03-04 13:46:05 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:46:07 INFO  e.c.mpihotel.web.LoginFilter - User lajos is authorized to access page;
+2022-03-04 13:46:07 INFO  e.c.mpihotel.web.LogoutServlet - User lajos has logged out successfully;
+2022-03-04 13:46:12 INFO  e.c.m.b.service.impl.UserServiceImpl - User pista has logged in successfully
+2022-03-04 13:46:12 INFO  e.c.m.b.service.impl.UserServiceImpl - Successfully queried user with username pista;
+2022-03-04 13:46:12 INFO  e.c.mpihotel.web.LoginServlet - User pista has logged in successfully, redirecting to main page...;
+2022-03-04 13:46:12 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:46:12 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 1 have been queried with success;
+2022-03-04 13:46:12 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:46:40 INFO  e.c.mpihotel.web.LoginFilter - User pista is authorized to access page;
+2022-03-04 13:46:40 INFO  e.c.mpihotel.web.LogoutServlet - User pista has logged out successfully;
+2022-03-04 13:46:46 INFO  e.c.m.b.service.impl.UserServiceImpl - User lajos has logged in successfully
+2022-03-04 13:46:46 INFO  e.c.m.b.service.impl.UserServiceImpl - Successfully queried user with username lajos;
+2022-03-04 13:46:46 INFO  e.c.mpihotel.web.LoginServlet - User lajos has logged in successfully, redirecting to main page...;
+2022-03-04 13:46:46 INFO  e.c.mpihotel.web.LoginFilter - User lajos is authorized to access page;
+2022-03-04 13:46:46 INFO  e.c.m.b.s.impl.BookingsServiceImpl - Bookings of user with id 2 have been queried with success;
+2022-03-04 13:46:46 INFO  e.c.mpihotel.web.IndexServlet - Main page has been built up successfully;
+2022-03-04 13:46:51 INFO  e.c.mpihotel.web.LoginFilter - User lajos is authorized to access page;
+2022-03-04 13:46:51 WARN  e.c.mpihotel.web.BookingServlet - No room left on 2022-03-04;
+2022-07-11 21:59:36 INFO  e.c.m.b.r.jdbc.ConnectionManager - ConnectionManager successfully initialised
+2022-07-11 21:59:36 INFO  e.c.m.b.repository.jdbc.JdbcHotelDAO - Hotel was inserted successfully;
+2022-07-11 21:59:36 INFO  e.c.m.b.repository.jdbc.JdbcHotelDAO - Rooms were inserted successfully;
+2022-07-11 21:59:36 INFO  e.c.m.b.repository.jdbc.JdbcUserDAO - User with id 3 has been created
+2022-07-11 22:00:45 INFO  e.c.m.b.r.jdbc.ConnectionManager - ConnectionManager successfully initialised
+2022-07-11 22:00:45 INFO  e.c.m.b.repository.jdbc.JdbcHotelDAO - Hotel was inserted successfully;
+2022-07-11 22:00:45 INFO  e.c.m.b.repository.jdbc.JdbcHotelDAO - Rooms were inserted successfully;
+2022-07-11 22:01:49 INFO  e.c.mpihotel.web.LoginFilter - Unauthorized access attempt, redirecting to login page...;
+2022-07-11 22:01:55 INFO  e.c.m.b.repository.jdbc.JdbcUserDAO - No user registered with username asd
+2022-07-11 22:01:55 INFO  e.c.m.b.service.impl.UserServiceImpl - Failed to login user asd, it is not registered
+2022-07-11 22:01:55 INFO  e.c.mpihotel.web.LoginServlet - Wrong username or password
+2022-07-11 22:14:58 INFO  e.c.mpihotel.web.LoginServlet - No username or password given
+2022-07-11 23:33:58 INFO  e.c.mpihotel.web.LoginServlet - Connections have been closed;

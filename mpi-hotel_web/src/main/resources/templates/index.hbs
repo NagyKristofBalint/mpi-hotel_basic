@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>mpi-hotel</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+</head>
+<body>
+<table width="100%" id="top-side">
+    <tr>
+        <th class="to-left" width="33%">Logged in as <span class="username-field">{{username}}</span></th>
+        <th class="to-center" width="33%">mpi-hotel</th>
+        <th class="to-right" width="33%"><a href="./logout">Logout</a></th>
+    </tr>
+</table>
+<div>
+    <table id="main-table">
+        <tr>
+            <th class="bordert-neki">
+                <form>
+                    <h3 id="bookings-header">Your bookings</h3>
+                    <div id="bookings-list">
+                        {{#each list}}
+                        <p id="{{this.id}}" class="booking-item"><input type="radio" name="booking-item">{{this.date}}</input></p>
+                        {{/each}}
+                    </div>
+                    <input id="delete-button" type="button" value="Delete selected" onclick="delete_selected_booking()"></input>
+                </form>
+            </th>
+            <th class="bordert-neki">
+                <form action="./booking" method="POST">
+                    <p><label>New booking date</label></p>
+                    <p><input type="date" name="booking-date" min="2022-01-01" max="2022-12-31"></p>
+                    <p><input type="submit" value="Add booking!"/></p>
+                </form>
+            </th>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
